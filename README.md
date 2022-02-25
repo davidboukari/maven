@@ -8,6 +8,8 @@ sudo apt install maven
 
 ## Usage
 ```
+mvn archetype:generate -DgroupId=com.hawksys.s3 -DartifactId=s3-demo -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
+
 mvn package
 mvn install
 
