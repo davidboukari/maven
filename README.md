@@ -31,7 +31,7 @@ java -jar target/springboot-swagger-test-0.0.1-SNAPSHOT.jar
 
 ## Spring Boot
 
-### Set Call a component to be call  
+### Set a component to be call  by using @Bean
 ```
 @Component
 public class S3Sample {
